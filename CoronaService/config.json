@@ -1,0 +1,35 @@
+{
+  "api_endpoint": "https://api.riska.or.id/v1/whatsapp-bots",
+  "instance_id": "6281218914522",
+  "admins": ["6281218914522"],
+  "rules": [
+    {
+      "pattern": "^risk(a|a+)(!|!+|)$",
+      "response": "Muda, Gaul, Berkarya!"
+    },
+    {
+      "pattern": "^takb(i|i+)(r|r+)(!|!+|)$",
+      "response": "Allahuakbar!",
+      "reply": true
+    },
+    {
+      "pattern": "^bmaq(!|!+|)$",
+      "response": "Fun, Smart, Mumtaaz!"
+    },
+    {
+      "pattern": "^(sc|sister club)(!|!+|)$",
+      "response": "Fun, Smart, Beauty!"
+    },
+    {
+      "pattern": "assalamu",
+      "reply": true,
+      "response": "Wa'alaikumussalam ka @user"
+    },
+    {
+      "pattern": "^(hi|halo) ",
+      "mention_only": true,
+      "reply": true,
+      "response": "Hi juga ka @user"
+    }
+  ]
+}
